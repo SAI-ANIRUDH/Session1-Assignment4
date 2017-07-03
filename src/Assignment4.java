@@ -19,11 +19,11 @@ c=a+b;// Adding Byte and Short Variables//
 System.out.println(""+c);
 d=b+c; // Adding Short and Int Variables//
 System.out.println(""+d); // Automatic Type Casting //
-e=c+d;
+e=c+d;// Adding Int and Long Variables//
 System.out.println(""+e); // Automatic Type Casting //
-f=d+e;
+f=d+e; //Adding Long and Float Variables//
 System.out.println(""+f); // Automatic Type Casting //
-c=(int)e+(int)f;
+c=(int)e+(int)f; //Adding float and Double Variables//
 System.out.println(""+c); //Explicit Type Casting //
 	}
 
